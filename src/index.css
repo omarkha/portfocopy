@@ -1,13 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruwudu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navbar {
+  height: 89px;
+
+  background: linear-gradient(
+    to bottom,
+    rgb(25, 160, 15, 0.15),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.nav-link {
+  color: rgba(25, 160, 15);
+}
+
+.credentials {
+  height: 50vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px;
+}
+
+.cred {
+  margin: 21px 0;
+}
+
+.cert {
+  width: 233px;
+  height: 144px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 21px auto;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: calc(100vh - 76px);
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+  background-size: contain;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 101px;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-left: 101px;
+}
+
+.navbar-brand h1 {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 34px;
+}
+
+.navbar-brand h3 {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Ruwudu", serif;
+  font-size: 21px;
+}
+
+ul {
+  text-align: left;
+  margin-left: 55px;
+}
+
+.usp {
+  margin-top: 55px;
+  padding: 34px;
+  width: 54.8%;
+}
+
+.usp h1,
+.usp h2 {
+  font-style: italic;
+}
+
+.usp span {
+  color: rgb(15, 25, 160);
+}
+
+p,
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8 {
+  font-family: "Ruwudu", serif;
+  color: rgb(25, 160, 15);
+}
+
+.img {
+  width: 30.2%;
+
+  height: calc(100vh - 156px);
+  margin-top: 30px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 21px;
+  box-shadow: 0 0 21px 1px rgb(160, 160, 15);
+}
+
+section {
+  margin-bottom: 28vh;
+}
+
+.floating-socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 21px;
+  top: 50vh;
+}
+
+.floating-socials div {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  margin: 8px;
+}
+
+.scrolldown {
+  width: 55px;
+  height: 89px;
+  background-size: cover;
+  align-self: flex-end;
+  margin: 0 auto;
+  margin-top: 21px;
+}
+
+.services {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 21px;
+  padding: 21px;
+}
+
+.service {
+  padding: 21px;
+  background: linear-gradient(
+    rgba(25, 255, 15, 0.62),
+    rgba(160, 255, 101, 0.15)
+  );
+  border-radius: 34px;
+}
+
+.service h3 {
+  text-decoration: underline;
+  color: rgba(25, 101, 15);
+}
+.service p {
+  color: rgba(15, 15, 15);
+  font-size: 21px;
+}
+
+footer {
+  background: linear-gradient(to top, rgb(25, 160, 15, 0.15), rgba(0, 0, 0, 0));
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding: 21px 101px;
+}
+
+#footer ul {
+  list-style: none;
+}
+
+#footer ul li {
+  margin: 34px;
+}
+
+.residence {
+  padding-right: 34px;
+  border-right: 2px solid rgb(25, 160, 15);
 }
