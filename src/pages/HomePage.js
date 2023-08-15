@@ -18,10 +18,10 @@ const HomePage = () => {
 
           <div className="usp">
             <Zoom>
-              <p className="display-5 px-5">
+              <p className="display-5">
                 With <u>50+ books</u> tested, I convert your prospects to
-                clients
-                <br /> Sale After Sale 💵
+                clients,
+                <br /> Sale After Sale! 💵
               </p>
             </Zoom>
             <Zoom>
@@ -40,7 +40,21 @@ const HomePage = () => {
             </Fade>
           </div>
         </section>
-        <section>
+        <section className="copy">
+          <Fade left>
+            <h3 className="h4 mx-5 px-5">
+              You already know why you need a copywriter: A copywriter converts
+              prospects to leads and leads to customers. If you have high IQ,
+              emotional intelligence and a motivational reason to pursuing this
+              craft, you'll undoubtably excell. Writing killer copy requires you
+              to be like Bruce Lee; Constantly training and improving at your
+              craft. For the past 5 years I have done just that. I’ve read 50
+              books on copywriting, marketing, and psychology. Every one of
+              these 50 books that I’ve read gave me insights that I could
+              implement in my writing.
+            </h3>
+          </Fade>
+          <br />
           <Fade left>
             <h3 className="h2 mx-5 px-5">Dedicated to the Grind</h3>
             <h3 className="h5 mx-5 px-5">
@@ -77,7 +91,9 @@ const HomePage = () => {
           </Fade>
         </section>
         <section>
-          <h3 className="h1">Certifications</h3>
+          <h3 className="h1">
+            <u>Certifications</u>
+          </h3>
           <div className="credentials">
             <div className="cred">
               <div
@@ -99,7 +115,9 @@ const HomePage = () => {
         </section>
 
         <section>
-          <h3 className="h1">What I Can Do For You</h3>
+          <h3 className="h1">
+            <u>What I Can Do For You</u>
+          </h3>
           <div className="services">
             <Fade left>
               <div className="service">

@@ -98,7 +98,7 @@ ul {
 }
 
 .usp {
-  margin-top: 55px;
+  margin-top: 0;
   padding: 34px;
   width: 54.8%;
 }
@@ -110,6 +110,17 @@ ul {
 
 .usp span {
   color: rgb(15, 25, 160);
+}
+
+.usp p {
+  background: linear-gradient(
+    to bottom,
+    rgb(160, 255, 15, 0.382),
+    rgba(0, 0, 0, 0)
+  );
+  padding: 13px 55px;
+  padding-top: 55px;
+  border-radius: 21px;
 }
 
 p,
@@ -134,7 +145,7 @@ h8 {
   background-size: cover;
   background-position: center;
   border-radius: 21px;
-  box-shadow: 0 0 21px 1px rgb(160, 160, 15);
+  box-shadow: 0 0 21px 1px rgb(160, 160, 25);
 }
 
 section {
@@ -215,4 +226,15 @@ footer {
 .residence {
   padding-right: 34px;
   border-right: 2px solid rgb(25, 160, 15);
+}
+
+.copy {
+  padding: 89px 0;
+  border: 2px dashed rgb(25, 160, 15);
+  border-right: 2px dashed rgb(25, 160, 15);
+  background: linear-gradient(
+    to bottom,
+    rgb(160, 255, 101),
+    rgba(25, 160, 15, 0.628)
+  );
 }
